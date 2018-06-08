@@ -1,0 +1,431 @@
+
+body { padding-top: 51px; }
+
+a[href] {text-decoration: none;}
+
+a.white:link {color: white;}
+a.white:active {color: white;}
+a.white:visited {color: white;}
+a.white:hover {color: salmon;}
+
+a.brown:link {color:brown;}
+a.brown:active {color:brown;}
+a.brown:visited {color:brown;}
+a.brown:hover {color:brown;}
+
+a.black:link {color:black;}
+a.black:active {color:black;}
+a.black:visited {color:black;}
+a.black:hover {color:black;}
+
+#topheader
+{
+    background-color: brown;
+    font-family: Georgia;
+    color: white;
+    text-align: center;
+    line-height: 40px;  
+    vertical-align: middle; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#midheader
+{
+    font-family: Georgia;
+    text-align: center;  
+    display:block;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+}
+
+#bottomheader
+{
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#maincontent
+{
+    font-family: Georgia;
+    vertical-align: middle; 
+    color: brown;
+}
+
+#footer
+{
+    background-color: #9e8b6d;
+}
+
+.collapseloginform
+{
+    width: 250%; padding-left: 20%; padding-right: 20;
+}
+.regform
+{
+    width: 50%;
+    margin-left: 25%;
+    background-color: whitesmoke;
+    border: brown;
+}
+
+.boxform
+{
+    width: 90%;
+}
+
+.userinfoform
+{
+    margin-left: 20%;
+    width: 60%;
+    background-color: whitesmoke;
+    border: brown;
+
+}
+.userinfoboxform
+{
+    margin-left: 10%;  
+}
+
+/* For User Information - Transaction History - Delivery Address (part of ACCOUNT sub menu) */
+/* Template for Account Menu is taken from qlapa.com */
+
+/* .menu-container{border:1px solid #c4b593;margin-bottom:15px;padding:0;border-bottom:0}
+.menu-container a:visited{color:#9e8b6d}
+.menu-container li{margin:0;border-bottom:1px solid #c4b593;font-size:16px}
+.menu-container li .active a,.menu-container li .active a:hover,.menu-container li a,.menu-container li a:hover{text-decoration:none!important}
+@media (min-width:768px) and (max-width:991px){.menu-container li .active a,.menu-container li .active a:hover,.menu-container li a,.menu-container li a:hover{font-size:14px}}
+.menu-container li a span{float:right;margin-left:10px;line-height:20px}
+.menu-container li.active{background-color:#c4b593}
+.menu-container li.active a,.menu-container li.active a:hover{color:#fff}
+.menu-container li.active a span,.menu-container li.active a span:hover{font-weight:400}
+.field-name,.form-container h4{font-weight:700}
+.left-menu-label{font-size:12px;color:#999;padding-top:2px}
+.form-container-holder{padding-right:30px;padding-bottom:15px}
+.form-container{box-shadow:0 2px 6px #c4b593;margin-top:20px;padding: 0% 10%;margin-bottom:15px; background-color: whitesmoke}
+@media (max-width:767px){.form-container{margin-right:-15px;margin-left:-15px}}#wishlist{margin-bottom:50px} */
+
+.menu-container a {color: rgb(7, 7, 7)}
+.menu-container{border:1px solid grey;margin-bottom:15px;padding:0;border-bottom:0}
+.menu-container a:visited{color:#9e8b6d}
+.menu-container li{margin:0;border-bottom:1px solid #c4b593;font-size:16px}
+.menu-container li .active a,.menu-container li .active a:hover,.menu-container li a,.menu-container li a:hover{text-decoration:none!important}
+@media (min-width:768px) and (max-width:991px){.menu-container li .active a,.menu-container li .active a:hover,.menu-container li a,.menu-container li a:hover{font-size:14px}}
+.menu-container li a span{float:right;margin-left:10px;line-height:20px}
+.menu-container li.active{background-color:lightgrey}
+.menu-container li.active a,.menu-container li.active a:hover{color:rgb(7, 7, 7)}
+.menu-container li.active a span,.menu-container li.active a span:hover{font-weight:400}
+.field-name,.form-container h4{font-weight:700}
+.left-menu-label{font-size:12px;color:#999;padding-top:2px}
+.form-container-holder{padding-right:30px;padding-bottom:15px}
+.form-container{box-shadow:0 2px 6px #c4b593;margin-top:20px;padding: 0% 10%;margin-bottom:15px; background-color: whitesmoke}
+@media (max-width:767px){.form-container{margin-right:-15px;margin-left:-15px}}#wishlist{margin-bottom:50px}
+
+/* Product Categories Side Bar */
+.sidebar-category
+{
+    color: black;
+    background-color: whitesmoke;
+    border: #9e8b6d;
+
+}
+
+/* FOOTER */
+/* Template for Footer is taken from qlapa.com */
+.footer-container-top
+{
+    background-color:#e1dbce;width:100%;padding:20px 0;min-height: 50px ;border-top:1px solid #DDD
+}
+.footer-container-top .nav-pills
+{
+    margin-top:0
+}
+.footer-container-top .nav-pills .nav-col
+{
+    border-radius:0
+}
+@media (max-width:767px)
+{
+    .footer-container-top
+    {
+        padding:0 0 20px
+    }
+    .footer-container-top .container
+    {
+        margin:0;padding:0
+    }
+    .footer-container-top .nav-pills .nav-col
+    {
+        border:1px solid #c4b593;border-left:transparent;border-bottom:transparent;border-right:transparent
+    }
+}
+.footer-container-top .nav-pills li
+{
+    margin:0;padding:0
+}
+.footer-container-top .nav-pills li h4
+{
+    color:#666;font-weight:500
+}
+@media (max-width:767px)
+{
+    .footer-container-top .nav-pills li h4
+    {
+        margin:0;padding:15px
+    }
+    .footer-container-top .nav-pills .footer-collapse
+    {
+        display:none
+    }
+}
+.footer-container-top .nav-pills .footer-collapse a
+{
+    padding-top:5px;padding-bottom:5px;width:100%;display:block;font-weight:550; color: rgb(32, 32, 32)
+}
+@media (max-width:767px)
+{
+    .footer-container-top .nav-pills .footer-collapse a
+    {
+        width:100%;border-radius:0;border-top:1px solid #c4b593;background-color:#e1dbce;color:#9e8b6d;padding:10px 24px;font-weight:550; color: rgb(22, 22, 22)
+    }
+}
+.footer-container-top .nav-pills .footer-collapse .inline a
+{
+    padding:10px 5px;display:inline
+}
+.hour
+{
+    color:#666;font-size:12px
+}
+.social-media-footer
+{
+    margin-top:12px
+}
+@media (max-width:767px)
+{
+    .social-media-footer
+    {
+        margin:40px 0 10px
+    }
+}
+.social-media-footer .qicon
+{
+    color: #666;font-size:15px;margin-right:0
+}
+.footer-container-bottom
+{
+    background-color:#fff;padding:20px 0;border-top:1px solid #EEE;text-align:left
+}
+
+@media (max-width:767px)
+{
+    .social-media-footer .qicon
+    {
+        font-size:20px;margin-right:12px
+    }
+    .footer-container-bottom
+    {
+        padding-bottom:20px
+    }
+}.footer-container-bottom a
+{
+    margin-right:40px;color:#666
+}
+@media (max-width:767px)
+{
+    .footer-container-bottom a
+    {
+        margin-right:15px
+    }
+}
+.footer-container-bottom .btn
+{
+    background-color:#4c6967;color:#fff
+}
+.back-to-top
+{
+    position:fixed;bottom:50px;right:50px;opacity:.5
+}
+.back-to-top:hover
+{
+    opacity:1
+}
+.footer-title
+{
+    font-weight:500;font-family:"Nunito Sans",sans-serif
+}
+
+.payment-option-icon
+{
+    margin:8px;font-size:18px
+}
+.google-badge
+{
+    width:140px
+}
+
+/* Customized Primary Button */
+.btn-primary-f,.btn-primary-f.disabled,.btn-primary-f.disabled.active,.btn-primary-f.disabled.focus,.btn-primary-f.disabled:active,.btn-primary-f.disabled:focus,.btn-primary-f.disabled:hover,.btn-primary-f[disabled],.btn-primary-f[disabled].active,.btn-primary-f[disabled].focus,.btn-primary-f[disabled]:active,.btn-primary-f[disabled]:focus,.btn-primary-f[disabled]:hover,fieldset[disabled] .btn-primary-f,fieldset[disabled] .btn-primary-f.active,fieldset[disabled] .btn-primary-f.focus,fieldset[disabled] .btn-primary-f:active,fieldset[disabled] .btn-primary-f:focus,fieldset[disabled] .btn-primary-f:hover
+{
+    /* background-color:#4c6967;border-color:transparent */
+    background-color:#9e8b6d;border-color:transparent
+}
+.btn-primary-f
+{
+    color:#fff
+}
+.btn-primary-f.active,.btn-primary-f.focus,.btn-primary-f:active,.btn-primary-f:focus,.btn-primary-f:hover,.open>.dropdown-toggle.btn-primary-f
+{
+    color:#fff;border-color:transparent
+}
+.btn-primary-f .badge
+{
+    color:#4c6967;background-color:#fff
+ 
+}
+.btn-primary-f.active,.btn-primary-f.focus,.btn-primary-f:active,.btn-primary-f:focus,.btn-primary-f:hover,.open>.dropdown-toggle.btn-primary-f
+{
+    /* background-color:#618784;border-color:rgba(31,31,31,0) */
+    background-color:#917c5b;border-color:rgba(31,31,31,0)
+}
+
+
+
+/* Style for ACCOUNT Page */
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  height: 100%;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+/* Style for ACCOUNT Page */
+
+/* Style for SIngle Page */
+.ads-grid_shop {
+    padding: 6em 0;
+}
+@media(max-width:1440px){
+	.ads-grid_shop {
+        padding: 4em 0;
+    }
+  .ads-grid_shop {
+        padding: 2em 0;
+    }
+}
+
+.shop_inner_inf {
+    width: 90%;
+    margin: 0 auto;
+}
+@media(max-width:375px){
+   .shop_inner_inf {
+        width: 95%;
+    }
+}
+@media(max-width:767px){
+	.single-right-left h3 {
+        font-size: 19px;
+    }
+}
+@media(max-width:600px){
+	.top_nav_right {
+        right: 7.5%;
+        margin-top: 25px;
+    }
+    .single-right-left {
+        width: 93%;
+    }
+}
+@media(max-width:375px){
+	.top_nav_right {
+        right: 18.5%;
+        margin-top: 19px;
+    }
+    .banner-top, .banner-top1, .banner-top2, .banner-top3 {
+        min-height: 325px;
+    }
+    .banner-info-wthree    {
+        padding: 8em 0em 0 0em;
+    }
+    .single-right-left {
+        width: 96%;
+    }
+ .single-right-left h3 {
+        font-size: 16px;
+        line-height: 1.7em;
+    }
+}
+
+/* copy flexsider.css
+jquery.flexsider.js */
+
+
+@media(max-width:767px){
+	.single-right-left h3 {
+        font-size: 19px;
+    }
+}
+@media(max-width:600px){
+	.top_nav_right {
+        right: 7.5%;
+        margin-top: 25px;
+    }
+    .single-right-left {
+        width: 93%;
+    }
+}
+@media(max-width:375px){
+	.top_nav_right {
+        right: 18.5%;
+        margin-top: 19px;
+    }
+    .banner-top, .banner-top1, .banner-top2, .banner-top3 {
+        min-height: 325px;
+    }
+    .banner-info-wthree    {
+        padding: 8em 0em 0 0em;
+    }
+    .single-right-left {
+        width: 96%;
+    }
+    .single-right-left h3 {
+        font-size: 16px;
+        line-height: 1.7em;
+    }
+}
+
+@media(max-width:991px){
+	.single-right-left.simpleCart_shelfItem {
+		margin-top: 2em;
+	}
+	.single-right-left {
+		width: 80%;
+	}
+}
+
+
+/* Transaction History */
+.transaction-menu
+{
+    background-color: whitesmoke;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+}
